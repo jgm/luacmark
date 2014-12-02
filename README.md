@@ -1,4 +1,4 @@
-luasoldout
+luacmark
 ==========
 
 A simple lua binding to
