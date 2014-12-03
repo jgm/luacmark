@@ -48,3 +48,7 @@ if expect == result then
 else
   print("Fail!")
 end
+
+n = Node.new()
+print(tostring(n))
+
