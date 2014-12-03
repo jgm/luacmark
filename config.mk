@@ -13,7 +13,7 @@ CFLAGS += -fPIC -Wall -Os ${LUAINC}
 LDFLAGS += -shared ${LUALIB}
 
 # Mac OS X
-#LDFLAGS += -llua
+LDFLAGS += -llua
 
 # compiler and linker
 CC ?= cc
